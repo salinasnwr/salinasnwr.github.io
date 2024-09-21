@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <!--The LinkTag is neccessary to link with CSS, and NEEDS to be with Head Tag-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/specimen/Poppins" rel=stylesheet""
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <title> Document </title>
+</head>
+<body>
+    <header id="logo"> 
+        <!--Content of the Header goes here-->
+        <h1>Anchored Abroad</h1>
+        <nav>
+            <ul id="nav-ul">
+                <!-- This is the code for the link-->
+                <li><a href="https://www.google.co.uk/" class="navbutton">Home</a></li>
+                <li><a href="https://www.google.co.uk/"class="navbutton">About Me</a></li>
+                <li><a href="https://www.google.co.uk/"class="navbutton">Gallery</a></li>
+                <li><a href="https://www.google.co.uk/"class="navbutton">Contact</a></li>
+                <li><a href="https://www.google.co.uk/"class="navbutton">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <!-- Main Content of Website here-->
+         <!--Some reason on the website it's squished each article-->
+         <div id="main-content"> 
+            <div>
+            <article>
+                <header> 
+                    <!--Article Header goes here-->
+                    <h2>Welcome to Anchored Abroad</h2>
+                    <h3>A travel blog featuring budget-friendly travel advice, essential packing tips and thoughtful insights from around the globe.</h3>
+                </header>
+                <main> 
+                    <p>Over the past two years, I’ve had the incredible experience of traveling to 10 countries – all while sticking to a budget. From the bustling streets of Bangkok to the vibrant markets of Morocco, I’ve learned how to make the most of every destination without breaking the bank.
+
+                        On Anchored Abroad, I share not only my personal travel stories but also budget-friendly travel tips, packing advice, and cultural insights from around the globe. Whether you're planning a solo adventure or exploring with friends, you'll find practical advice and inspiration to help you embark on your own affordable journey.
+                        
+                        Join me as I continue to explore the world, find new roots, and show you how every adventure can feel like home – without the hefty price tag.</p>
+                    <blockquote><i>Discover the world, travel smart, and make every journey an unforgettable one.</i></blockquote>
+                </main>
+             <article>
+                <header> 
+            </div>
+            <aside>
+                <section>
+                    <h4>Destinations</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">Europe</a></li>
+                            <li><a href="">East Asia</a></li>
+                            <li><a href="">South-East Asia</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h4>Community Hub</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">Forums</a></li>
+                            <li><a href="">Ask for Advice</a></li>
+                            <li><a href="">Meetups & Events</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h4>Resources</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">Packing & Travel Tips</a></li>
+                            <li><a href="">Apps & Tech</a></li>
+                            <li><a href="">Budgeting & Finance</a></li>
+                            <li><a href="">Language Tools</a></li>
+                        </ul>
+                    </nav>
+                </section>
+             </aside>
+         </div>
+            <footer id="main-header"> 
+                <h3>Hey there! My name is Salina, nice to meet you!</h3>
+                <div class="author-info">
+                <img src="Profile picture.png" alt="Profile Picture of Author" width="100">
+                <!--This is for the Profile Pictures-->
+                </div>
+                <div>
+                <a href="https://www.linkedin.com/in/salinasunuwar/" target="_blank">Connect With Me</a>
+                <!--Target Blank takes you to a new tab-->
+                </div>
+            </footer>
+         </article>
+
+         <hr> <!--This is the headline break-->
+         <h2>Sign Up to My Newsletter:</h2>
+         <h3>Features exclusive destination guides and personal stories to help you navigate your next adventure with ease!</h3>
+         <form action="" method="">
+            <!--Recommend using LABEL as it will highlight what's needed, rather than just text-->
+            <label for="first_name"> First Name</label> 
+            <input type="text" id="first_name" name="first_name" required>
+            <br> <!--This forces the next value to go below the other!-->
+
+            <label for="last_name"> Last Name</label>
+            <input type="text" id="last_name" name="last_name" required>
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <br>
+
+            <label for="travel_style">What's your Travel Style?:</label>
+            <input type="radio" name="travel_style" id="Solo_Adventurer" value="Solo_Adventurer">
+            <label for="Solo_Adventurer">Solo Adventurer</label>
+            <input type="radio" name="travel_style" id="Relaxation_Seeker" value="Relaxation_Seeker">
+            <label for="Relaxation_Seeker">Relaxation Seeker</label>
+            <input type="radio" name="travel_style" id="Cultural Enthusiast" value="Cultural Enthusiast">
+            <label for="Cultural Enthusiast">Cultural Enthusiast</label>
+            <br>
+
+            <label for="Country">Where are you from?</label>
+            <select name="Country" id="Country">
+                <option value="Europe">Europe</option>
+                <option value="Asia">Asia</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+            <br>
+
+            <input type="checkbox" id="suscribe" name="suscribe">
+            <label for="suscribe">I'm Ready for Exclusive Content!</label>
+            <br>
+
+            <input type="Submit" value="Send!">
+
+         </form>
+        <hr>
+    </main>
+    <footer class="main-header">
+        <!-- Footer goes here-->
+         <h2>Anchored Abroad</h2>
+         <nav>
+            <ul id="footer-ul"> 
+                <!--Although in HTML effect of DIV cannot be seen, in CSS you can structure the break in presentation-->
+                <div>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </div>
+                <div>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">TERMS & CONDITIONS</a></li>
+                    <li><a href="">PRIVATE POLICY</a></li>
+                </div>
+                
+            </ul>
+         </nav>
+    </footer>
+    <body>
+        <div id=""grid-container
+    </body>
+
+</body>
+</html>

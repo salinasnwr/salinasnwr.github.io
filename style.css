@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    margin: 0;
+    padding: 0;
+    background-color: #ebf2ea;
+    color: #8ec096;
+}
+
+h1, h2, h3, h4 {
+    color: #455b49;
+}
+
+a {
+    text-decoration: none;
+    color: #638669;
+}
+
+/* Header Styles */
+header {
+    background-color: #719978;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+#nav-ul {
+    list-style: none;
+    padding: 0;
+}
+
+#nav-ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbutton {
+    color: white;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Article Section (Main Content) */
+article {
+    flex: 3;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Sidebar Styles (Aside) */
+aside {
+    width: 300px; /* Increased width for the sidebar */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+aside section {
+    margin-bottom: 20px;
+}
+
+aside h4 {
+    margin-bottom: 10px;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    background-color: #c6dfca;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #87b790;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #638669;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #87b790;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+#footer-ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footer-ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#footer-ul a {
+    color: #ebf2ea;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #main-content {
+        flex-direction: column;
+    }
+
+    article {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    aside {
+        width: 100%; /* Make the sidebar full width on smaller screens */
+    }
+}
